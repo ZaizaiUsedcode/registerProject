@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 import { prisma } from "@/app/lib/db";
-import { generateToken } from "../loginToken/route";
+import { generateToken } from "@/app/lib/auth";
 import bcrypt from "bcryptjs";
 import { cookies } from "next/headers";
 
