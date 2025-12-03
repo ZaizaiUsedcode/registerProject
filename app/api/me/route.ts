@@ -1,7 +1,7 @@
 
 import { NextResponse } from "next/server";
 import { cookies } from "next/headers";
-import { verifyToken } from "../auth/loginToken/route";
+import { verifyToken } from "@/app/lib/auth";
 
 
 export async function GET() {
